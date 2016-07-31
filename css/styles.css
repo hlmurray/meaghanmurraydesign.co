@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'Garamond Premier Pro';
+  src: url("../fonts/GaramondPremierProRegular.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/GaramondPremierProRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/GaramondPremierProRegular.woff2") format("woff2"), url("../fonts/GaramondPremierProRegular.woff") format("woff"), url("../fonts/GaramondPremierProRegular.ttf") format("truetype");
+  /* Safari, Android, iOS */ }
+* {
+  font-family: 'Garamond Premier Pro', serif;
+  font-weight: 100; }
+
+html,
+body {
+  width: 100%;
+  height: 100%; }
+
+body {
+  position: relative;
+  margin: 0;
+  background-color: #faf9f6; }
+
+main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  text-align: center; }
+
+h4 {
+  margin: 0;
+  font-size: 16px; }
+  h4:nth-of-type(1) {
+    margin: 0 0 20px;
+    font-weight: bold; }
+
+h1 {
+  font-size: 42px;
+  max-width: 460px;
+  line-height: 1.25em; }
+
+.social {
+  padding: 10px 0 0; }
+  .social a {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin: 0 10px; }
+    .social a#pinterest {
+      width: 12px; }
